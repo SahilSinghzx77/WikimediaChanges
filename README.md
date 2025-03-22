@@ -1,7 +1,8 @@
 # 🌍 Wikimedia Changes Project
 
 ## 📌 Overview
-This project captures real-time changes from Wikimedia and stores them in **MySQL** and **Elasticsearch** using **Apache Kafka** and **Spring Boot**.  
+This project captures real-time changes from Wikimedia and stores them in **MySQL** and **Elasticsearch** using **Apache Kafka** and **Spring Boot**. 
+**Kibana** can be used for interactive dashboards, search capabilities, and real-time monitoring of Wikimedia changes.  
 
 ## 🏗️ Tech Stack
 - **Java (Spring Boot)**
