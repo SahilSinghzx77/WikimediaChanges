@@ -8,6 +8,7 @@ This project captures real-time changes from Wikimedia and stores them in **MySQ
 - **Apache Kafka**
 - **MySQL**
 - **Elasticsearch**
+- **Kibana**
 
 ## 🔄 Data Flow
 1️⃣ **Kafka Consumer** listens to the `wikimedia_recentchange` topic.  
