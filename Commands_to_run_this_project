@@ -1,0 +1,24 @@
+Make sure you have Java 23, Apache kafka, Elasticsearch, Mysql and Kibana(to visualise data {Optional}) installed in your system.
+
+Command to start zookepeer service-->
+sahil.singh@6075L11-ux:~/Downloads/kafka$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Command to start Kafka server -->
+sahil.singh@6075L11-ux:~/Downloads/kafka$ bin/kafka-server-start.sh config/server.properties
+
+Command to run elasticsearch -->
+sahil.singh@6075L11-ux:~/Downloads/elasticsearch-8.17.3$ ./bin/elasticsearch
+
+To build Maven Project -->
+mvn clean install
+
+To run mysql in terminal -->
+mysql -u root -p
+
+
+To see data in elasticsearch-->
+curl -X GET "http://localhost:9200/wikimedia/_search?pretty"
+
+To run kibana-->
+./bin/kibana
+
